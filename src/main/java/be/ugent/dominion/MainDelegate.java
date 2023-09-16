@@ -13,12 +13,7 @@ public class MainDelegate {
      * wanneer het spel kan starten.
      */
     public void initClient(ClientEndpoint clientEndpoint, Stage stage){
-        /*
-        Game game = new Game(clientEndpoint);
-        try{
-            game.start(stage);
-        } catch(Exception ignored){
-        }*/
+
     }
 
     /**
@@ -28,7 +23,7 @@ public class MainDelegate {
      * Wordt pas opgeroepen nadat een eventuele (primaire) client is opgestart op hetzelfde toestel.
      */
     public void initServer(ServerEndpoint serverEndpoint) {
-        //Server server = new Server(serverEndpoint);
+
     }
 
 }
