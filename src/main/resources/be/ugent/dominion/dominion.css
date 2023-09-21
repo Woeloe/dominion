@@ -1,0 +1,6 @@
+MainPanel {
+    -fx-pref-width: 1280px;
+    -fx-background-image: url("images/Background.jpg");
+    -fx-background-size: cover;
+    -fx-alignment: top-center;
+}

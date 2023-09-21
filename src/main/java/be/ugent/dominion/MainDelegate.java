@@ -4,6 +4,7 @@ package be.ugent.dominion;
 //import be.ugent.dominion.serverSide.Server;
 import be.ugent.objprog.commhub.ClientEndpoint;
 import be.ugent.objprog.commhub.ServerEndpoint;
+import javafx.scene.Scene;
 import javafx.stage.Stage;
 
 public class MainDelegate {
@@ -13,7 +14,8 @@ public class MainDelegate {
      * wanneer het spel kan starten.
      */
     public void initClient(ClientEndpoint clientEndpoint, Stage stage){
-
+        stage.setScene(new Scene(new MainPanel()));
+        stage.show();
     }
 
     /**
